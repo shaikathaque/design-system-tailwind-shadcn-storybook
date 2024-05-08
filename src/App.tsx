@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button';
+import { ModeToggle } from './components/mode-toggle';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,9 +14,8 @@ function App() {
         <p>
           Hello world!
         </p>
-        <div className='bg-pink-100 text-slate-100'>
-          Testing
-        </div>
+        <ModeToggle />
+
     </div>
   )
 }
