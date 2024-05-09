@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className='flex-col space-y-5'>
-      <h1>Design System Shadcn/ui</h1>
+      <h1 className='text-4xl'>Design System Shadcn/ui</h1>
         <Button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </Button>

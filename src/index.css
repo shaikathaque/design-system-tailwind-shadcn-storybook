@@ -69,6 +69,10 @@
   @layer base {
     * {
       @apply border-border;
+      @font-face {
+        font-family: 'Quicksand';
+        src: url('/fonts/Quicksand.tff');
+      }
     }
     body {
       @apply bg-background text-foreground;
