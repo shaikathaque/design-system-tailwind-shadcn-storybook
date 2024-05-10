@@ -37,9 +37,6 @@ export default meta
 
 type Story = StoryObj<typeof meta>
 
-// Button Variants
-
-
 export const H1: Story = {
     args: {
         variant: 'h1',
