@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 import { Button } from '@/components/ui/button';
 
 const meta = {
-  title: 'Shadcn/button',
+  title: 'Atoms/button',
   component: Button,
   tags: ['autodocs'],
   argTypes: {
@@ -33,6 +33,7 @@ type Story = StoryObj<typeof meta>;
 
 // Button Variants
 
+// <Button variant="default">Default</Button>
 export const Default: Story = {
   args: {
     variant: 'default',
@@ -40,6 +41,7 @@ export const Default: Story = {
   },
 };
 
+// <Button variant="secondary">Secondary</Button>
 export const Secondary: Story = {
   args: {
     variant: 'secondary',
