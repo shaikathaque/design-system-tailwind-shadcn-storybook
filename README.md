@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# React Design System with Tailwind, Shadcn UI, and Storybook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo accompanies a blog post for setting up a design system in a react project built using [Shadcn UI](https://ui.shadcn.com/) components.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run Locally
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Install dependencies
+```bash
+yarn install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Start Storybook
+```bash
+yarn storybook
+```
+
+Run the app
+```bash
+yarn dev
+```
+
+Access storybook via `http://localhost:6006/`
+
+
+## Screenshots
+
+### Button Light Mode
+
+![Button Light Mode](images/button-storybook-light.png?raw=true)
+
+### Button Dark Mode
+
+![Button Dark Mode](images/button-storybook-dark.png?raw=true)
+
+### Typography
+
+![Typography](images/text-storybook.png?raw=true)
