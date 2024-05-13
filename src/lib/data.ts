@@ -10,14 +10,14 @@ export const services: Service[] = [
   {
     serviceId: 1234567890,
     name: 'Service A',
-    description: 'Service A Description',
+    description: 'Very very very long description for Service A',
     numClients: 1,
     server: 'US',
   },
   {
     serviceId: 1234567890,
     name: 'Service B',
-    description: 'Service B Description',
+    description: 'Very very very long description for Service A',
     numClients: 2,
     server: 'JP',
   },

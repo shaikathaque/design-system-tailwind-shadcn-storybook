@@ -30,7 +30,7 @@ export function DataTable<TData, TValue>({
   });
 
   return (
-    <div className="rounder-md border">
+    <div className="">
       <Table>
         {/* Header */}
         <TableHeader>
