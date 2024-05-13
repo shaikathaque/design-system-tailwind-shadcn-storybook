@@ -1,6 +1,8 @@
 # React Design System with Tailwind, Shadcn UI, and Storybook
 
-This repo accompanies a blog post for setting up a design system in a react project built using [Shadcn UI](https://ui.shadcn.com/) components.
+This repo accompanies a (blog post)[https://dev.to/shaikathaque/design-system-in-react-with-tailwind-shadcnui-and-storybook-17f] for setting up a design system in a react project built using [Shadcn UI](https://ui.shadcn.com/) components.
+
+
 
 
 ## Run Locally
